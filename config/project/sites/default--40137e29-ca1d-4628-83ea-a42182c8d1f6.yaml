@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-US
+name: 'https://hockeyshop.ddev.site'
+primary: true
+siteGroup: b894f1f5-f2b9-440c-9986-42340307d840 # https://hockeyshop.ddev.site
+sortOrder: 1

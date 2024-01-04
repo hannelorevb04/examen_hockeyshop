@@ -1,0 +1,22 @@
+dateModified: 1704366271
+email:
+  fromEmail: r0949506@student.thomasmore.be
+  fromName: 'https://hockeyshop.ddev.site'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    24db7935-f54c-49e0-987a-ff0f5ab9c93f: Common # Common
+    40137e29-ca1d-4628-83ea-a42182c8d1f6: 'https://hockeyshop.ddev.site' # https://hockeyshop.ddev.site
+    b894f1f5-f2b9-440c-9986-42340307d840: 'https://hockeyshop.ddev.site' # https://hockeyshop.ddev.site
+system:
+  edition: solo
+  live: true
+  name: 'https://hockeyshop.ddev.site'
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
