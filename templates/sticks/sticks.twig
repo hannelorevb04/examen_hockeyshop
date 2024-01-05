@@ -1,21 +1,11 @@
 {% extends "_layouts/main" %}
 
 {% block main %}
-    <header>
-        <div id="background_image">
-            <h1>De grootste hockeywinkel van de Benelux!</h1>
-        </div>
-        <!-- <video id="hockey_video" src="/catalogus/images/hockey.mp4" autoplay muted loop type="video/mp4"></video> -->
-        <!-- <img id="background_image" src="/catalogus/images/background_image.jpg" alt=""> -->
-        
-        <p></p>
-    </header>
-    <body>
 
 <div class="sticks">
     <div class="item">
         <img src="/catalogus/images/stick_1/stick1_1.webp" alt="">
-        <h3>{{ entry.title }}</h3> {# ADIDAS ESTRO 1 KROMASKIN 23/24 #}
+        <h3>{{ entry.naam }}</h3> {# ADIDAS ESTRO 1 KROMASKIN 23/24 #}
         <div class="prijs">
             <p class="oude_prijs">€440,00</p>
             <p>€352,00</p>
@@ -85,7 +75,7 @@
 
     <div class="item">
         <img src="/catalogus/images/stick_9/stick9_1.webp" alt="">   
-        <h3>{{ entry.naam }}</h3> {# ADIDAS YOUNGSTAR 9 23 #}
+        <h3>{{  entry.naam  }}</h3> {# ADIDAS YOUNGSTAR 9 23 #}
         <div class="prijs">
             <p class="oude_prijs">€35,00</p>
             <p>€28,00</p>

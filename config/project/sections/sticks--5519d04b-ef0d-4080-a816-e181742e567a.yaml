@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: sticks
+name: Sticks
+propagationMethod: all
+siteSettings:
+  40137e29-ca1d-4628-83ea-a42182c8d1f6: # https://hockeyshop.ddev.site
+    enabledByDefault: true
+    hasUrls: true
+    template: sticks/_entry
+    uriFormat: 'sticks/{slug}'
+type: channel

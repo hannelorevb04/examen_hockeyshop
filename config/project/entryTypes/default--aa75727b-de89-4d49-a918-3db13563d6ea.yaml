@@ -1,0 +1,107 @@
+fieldLayouts:
+  b6a08852-a8fc-405e-b672-41c30d812b41:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 68a3f0cc-3619-4bdc-b203-84bc8ab7918b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d4a95bfa-bee2-4bf1-a9bf-6f7f990cfd39 # Merk
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 04646560-3fe0-4230-a74c-f8a8f865c43b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 832b2fab-c391-4636-8861-e55be1be4347 # Product foto
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b2338f34-6ec0-4e1e-b208-c818702182e6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 75e6bd35-f48c-49e8-81fc-322ca8be891c # Titel maat
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d6a98dfa-e3b8-4d2f-b694-927ed24e2592
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 318f1136-09a4-4cd2-a364-76d1cd1985dc # Kleur
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 40c4b038-6798-4256-ad3f-60877686396c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5 # Informatie
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8d66a7a9-d580-49a2-a60c-3c6eb25efad2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d1d45461-c847-4cbd-ae70-8a5611976816
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: e24a704a-33b2-436e-9bdc-9e59f8f90f56 # Accessoires
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

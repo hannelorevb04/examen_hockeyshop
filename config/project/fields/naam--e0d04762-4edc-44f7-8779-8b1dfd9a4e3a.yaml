@@ -1,0 +1,19 @@
+columnSuffix: uxztjxul
+contentColumnType: text
+fieldGroup: c8d3f0a1-e2a0-4c27-a6a6-c3e2e2337052 # Accessoires
+handle: naam
+instructions: null
+name: Naam
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

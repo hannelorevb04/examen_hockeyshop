@@ -1,0 +1,19 @@
+columnSuffix: dkjxvqsf
+contentColumnType: text
+fieldGroup: a234da45-e43c-4d3c-980a-a0b0e2c1e090 # Sticks
+handle: merk
+instructions: null
+name: Merk
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

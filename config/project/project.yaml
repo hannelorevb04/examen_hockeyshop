@@ -1,19 +1,55 @@
-dateModified: 1704366271
+dateModified: 1704488603
 email:
   fromEmail: r0949506@student.thomasmore.be
   fromName: 'https://hockeyshop.ddev.site'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  products:
+    hasUrls: true
+    name: Products
+    settings:
+      path: '@webroot/images/uploads/products'
+    type: craft\fs\Local
+    url: '@web/images/uploads/products'
 meta:
   __names__:
+    0a839388-27cb-4c2d-b85a-13999404a807: Homepage # Homepage
+    4ea6fe13-0b4e-4470-85a5-50eb74d53b8a: Homepage # Homepage
+    5eed2c37-be0e-4ced-b0dd-357a57ffcbe8: Default # Default
+    9a68af7d-ad2d-4d6e-a40d-752713d226d5: Products # Products
     24db7935-f54c-49e0-987a-ff0f5ab9c93f: Common # Common
+    51db0d8c-d3ce-47bf-9cb9-046055e4bbb6: links # links
+    61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5: Informatie # Informatie
+    75e6bd35-f48c-49e8-81fc-322ca8be891c: 'Titel maat' # Titel maat
+    90e2a316-b263-446c-b52e-7fe30d32f5b5: Footer # Footer
+    318f1136-09a4-4cd2-a364-76d1cd1985dc: Kleur # Kleur
+    832b2fab-c391-4636-8861-e55be1be4347: 'Product foto' # Product foto
+    874bbcd8-3397-4307-8ebc-022cd9b1c03e: Default # Default
+    05451d65-24c1-4829-9174-c56e7e23332d: Clothing # Clothing
+    5519d04b-ef0d-4080-a816-e181742e567a: Sticks # Sticks
     40137e29-ca1d-4628-83ea-a42182c8d1f6: 'https://hockeyshop.ddev.site' # https://hockeyshop.ddev.site
+    071096ab-4b3b-49af-ac59-a3e8dc61a5ef: Footer # Footer
+    a234da45-e43c-4d3c-980a-a0b0e2c1e090: Sticks # Sticks
+    aa75727b-de89-4d49-a918-3db13563d6ea: Default # Default
     b894f1f5-f2b9-440c-9986-42340307d840: 'https://hockeyshop.ddev.site' # https://hockeyshop.ddev.site
+    b2453c63-010c-48fe-84f5-2dd5f5249760: Kleding # Kleding
+    c8d3f0a1-e2a0-4c27-a6a6-c3e2e2337052: Accessoires # Accessoires
+    d4a95bfa-bee2-4bf1-a9bf-6f7f990cfd39: Merk # Merk
+    e0d04762-4edc-44f7-8779-8b1dfd9a4e3a: Naam # Naam
+    e24a704a-33b2-436e-9bdc-9e59f8f90f56: Accessoires # Accessoires
+    eb257bf1-a669-4911-a35c-99197480e866: 180x180 # 180x180
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true
   name: 'https://hockeyshop.ddev.site'
+  retryDuration: null
   schemaVersion: 4.5.3.0
-  timeZone: America/Los_Angeles
+  timeZone: Europe/Brussels
 users:
   allowPublicRegistration: false
   defaultGroup: null

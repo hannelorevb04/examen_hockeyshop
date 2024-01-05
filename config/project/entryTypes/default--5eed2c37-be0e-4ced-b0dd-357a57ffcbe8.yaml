@@ -1,0 +1,107 @@
+fieldLayouts:
+  7d195bb0-24e7-4e3b-89d2-7bc66beeed09:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 21bc3439-2dcb-42a7-bbde-dc94b26436a6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d4a95bfa-bee2-4bf1-a9bf-6f7f990cfd39 # Merk
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 00db9f5f-3a22-4665-9286-040391fdf1f8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 75e6bd35-f48c-49e8-81fc-322ca8be891c # Titel maat
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4a0e6671-ac40-499c-bbda-5ca6a5ba569f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 832b2fab-c391-4636-8861-e55be1be4347 # Product foto
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f526cc6-c3a2-4ff2-b52c-0da86b4ab83f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 318f1136-09a4-4cd2-a364-76d1cd1985dc # Kleur
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 38a2e90f-3782-4651-a599-b0add8f07aac
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5 # Informatie
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b71dadc7-fc73-46fe-93a9-7460014f3235
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 50736933-687d-42a9-8bf6-7d4dbbe01985
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: b2453c63-010c-48fe-84f5-2dd5f5249760 # Kleding
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

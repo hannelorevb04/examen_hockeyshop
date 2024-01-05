@@ -1,0 +1,14 @@
+columnSuffix: lvcuaqan
+contentColumnType: string(255)
+fieldGroup: c8d3f0a1-e2a0-4c27-a6a6-c3e2e2337052 # Accessoires
+handle: links
+instructions: null
+name: links
+searchable: false
+settings:
+  maxLength: 255
+  types:
+    - url
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Url
