@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{craft.app.language}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{siteName}}</title>
+    {% do craft.app.view.registerCssFile('@web/styles/normalize.css') %}
+    {% do craft.app.view.registerCssFile('@web/styles/style.css') %}
+
+</head>
+<body>
+    <header>
+       {% set header = craft.entries().section('header').one()%} {# craft.entries --> haalt alle entries op, section('header') --> specifiert welke entrie we willen ophalen, .one() --> geeft aan dat we maar 1 item willen ophalen #}
+       {# {{header.title}} #}
+       {# <img src="{{entry.productFoto.one().url('productFoto')}}" alt="">  #}
+      {# {{header.logo}} #}
+      <nav>
+        <input type="checkbox" name="menu-toggle" id="menu-toggle"/>
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="nav-menu">
+          <li><a href="{{siteUrl}}">Home</a></li>
+          <li><a href="{{siteUrl}}sticks">Sticks</a></li>
+          <li><a href="{{siteUrl}}kleding">Kleding</a></li>
+          <li><a href="{{siteUrl}}accessoires">Accessoires</a></li>
+        </ul>
+        
+      </nav>
+    </header>
+
+    {# {% block content %} #}
+    {# hier komt de content #}
+    {# {% endblock %} #}
+   
+    <footer>
+     
+    </footer>
+
+</body>
+</html>

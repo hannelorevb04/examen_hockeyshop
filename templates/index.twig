@@ -1,7 +1,8 @@
-{% extends "_layouts/main" %}
+{% extends "_layout" %}
+{% do craft.app.view.registerCssFile('/@web/styles/style.css?1234') %}
 
-{% block main %}
-    <header>
+{% block content %}
+    {# <header>
         <div id="background_image">
             <h1>De grootste hockeywinkel van de Benelux!</h1>
         </div>
@@ -9,13 +10,13 @@
         <!-- <img id="background_image" src="/catalogus/images/background_image.jpg" alt=""> -->
         
         <p></p>
-    </header>
+    </header> #}
     <body>
 
 <div class="sticks">
     <div class="item">
         <img src="/catalogus/images/stick_1/stick1_1.webp" alt="">
-        <h3>{{ entry.title }}</h3> {# ADIDAS ESTRO 1 KROMASKIN 23/24 #}
+        <h3>{{ entry.naam }}</h3> {# ADIDAS ESTRO 1 KROMASKIN 23/24 #}
         <div class="prijs">
             <p class="oude_prijs">€440,00</p>
             <p>€352,00</p>

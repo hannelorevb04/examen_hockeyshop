@@ -1,0 +1,17 @@
+columnSuffix: rdtmwhzu
+contentColumnType: integer(10)
+fieldGroup: 24db7935-f54c-49e0-987a-ff0f5ab9c93f # Common
+handle: prijs
+instructions: null
+name: Prijs
+searchable: false
+settings:
+  currency: EUR
+  defaultValue: null
+  max: null
+  min: 0
+  showCurrency: true
+  size: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Money

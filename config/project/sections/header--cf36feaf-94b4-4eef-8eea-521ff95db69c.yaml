@@ -1,12 +1,12 @@
 defaultPlacement: end
 enableVersioning: true
-handle: footer
-name: Footer
+handle: header
+name: Header
 propagationMethod: all
 siteSettings:
   40137e29-ca1d-4628-83ea-a42182c8d1f6: # hockeyshop
     enabledByDefault: true
     hasUrls: true
-    template: footer/_entry
-    uriFormat: footer
+    template: null
+    uriFormat: header
 type: single

@@ -4,7 +4,7 @@ handle: accessoires
 name: Accessoires
 propagationMethod: all
 siteSettings:
-  40137e29-ca1d-4628-83ea-a42182c8d1f6: # https://hockeyshop.ddev.site
+  40137e29-ca1d-4628-83ea-a42182c8d1f6: # hockeyshop
     enabledByDefault: true
     hasUrls: true
     template: accessoires/_entry

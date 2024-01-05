@@ -1,27 +1,23 @@
 columnSuffix: zukustdh
 contentColumnType: text
-fieldGroup: a234da45-e43c-4d3c-980a-a0b0e2c1e090 # Sticks
-handle: informatie
+fieldGroup: 24db7935-f54c-49e0-987a-ff0f5ab9c93f # Common
+handle: tekst
 instructions: null
-name: Informatie
+name: Tekst
 searchable: false
 settings:
-  availableTransforms: ''
-  availableVolumes: ''
+  availableTransforms: '*'
+  availableVolumes: '*'
   columnType: text
-  configSelectionMode: choose
-  defaultTransform: ''
-  manualConfig: ''
-  purifierConfig: null
+  purifierConfig: Default.json
   purifyHtml: true
-  redactorConfig: null
   removeEmptyTags: false
   removeInlineStyles: false
   removeNbsp: false
   showHtmlButtonForNonAdmins: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
-  uiMode: enlarged
+  tinymceConfig: Default.json
 translationKeyFormat: null
 translationMethod: none
-type: craft\redactor\Field
+type: abmat\tinymce\Field

@@ -69,6 +69,18 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
+            fieldUid: 03ed6242-e5cb-4e16-9d54-b533e178c44c # Prijs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7c60796b-ef4d-4730-a401-e66f2b16b98c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
             fieldUid: 318f1136-09a4-4cd2-a364-76d1cd1985dc # Kleur
             instructions: null
             label: null
@@ -81,7 +93,7 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5 # Informatie
+            fieldUid: 61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5 # Tekst
             instructions: null
             label: null
             required: false

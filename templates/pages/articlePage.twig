@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craft Headlines</title>
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <style>
+      @media only screen and (min-width: 960px) {
+        .news-section{
+          display:grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          gap: 1.5em;
+          max-width: 1000px;
+          margin-left:auto;
+          margin-right:auto;
+        }
+        .news-section article{
+          display:block;
+        }
+      }
+
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Latest&nbsp;<span class="highlight">Craft CMS</span>&nbsp;updates</h1>
+      <nav>
+        <input type="checkbox" name="menu-toggle" id="menu-toggle"/>
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="nav-menu">
+          <li><a href="../">Home</a></li>
+          <li><a href="./articlesPage.html">News</a></li>
+          <li><a href="#">How To</a></li>
+          <li><a href="#">Plugins</a></li>
+          <li><a href="#">About Us</a></li>
+        </div>
+      </nav>
+    </header>
+
+    
+    <section class="news-section">
+    {% set }
+        <article>
+            <img src="https://fakeimg.pl/500x200" alt="">
+            <div>
+              <h2><a href="#">News Title 1</a></h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac odio eget felis vestibulum feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac odio eget felis vestibulum feugiat.</p>
+              <a href="#">read more</a>
+            </div>
+        </article>
+          
+        <article>
+          <img src="https://fakeimg.pl/500x200" alt="">
+          <div>
+            <h2><a href="#">News Title 1</a></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac odio eget felis vestibulum feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac odio eget felis vestibulum feugiat.</p>
+            <a href="#">read more</a>
+          </div>
+      </article>
+      <article>
+        <img src="https://fakeimg.pl/500x200" alt="">
+        <div>
+          <h2><a href="#">News Title 1</a></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac odio eget felis vestibulum feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac odio eget felis vestibulum feugiat.</p>
+          <a href="#">read more</a>
+        </div>
+    </article>
+    </section>
+
+    <footer>
+        <p>With a commitment to quality content for the Craft-community.</p>
+        <a href="#">privacy policy</a>
+    </footer>
+
+</body>
+</html>

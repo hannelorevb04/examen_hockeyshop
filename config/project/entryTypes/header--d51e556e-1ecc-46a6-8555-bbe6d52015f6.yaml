@@ -1,5 +1,5 @@
 fieldLayouts:
-  ffc89fbb-9587-48cc-bc1c-02e67d12cae3:
+  2602fc8b-b7b7-4bec-a3ef-0246b8d1acc9:
     tabs:
       -
         elementCondition: null
@@ -27,41 +27,41 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 5f171136-30c3-4cab-be9f-6cace0ca9b5f
+            uid: 243bc075-b808-4312-b866-036183ab8803
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: e0d04762-4edc-44f7-8779-8b1dfd9a4e3a # Naam
+            fieldUid: 7c856655-74bf-4beb-8886-1dbf0fdedc3e # Logo
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 440def48-d8c2-462f-a2ea-f466e7e105bf
+            uid: 315dc936-a3b5-4630-83e0-4fd34907e4e1
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 832b2fab-c391-4636-8861-e55be1be4347 # Product foto
+            fieldUid: 61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5 # Tekst
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 094e798b-f812-4e2d-903b-a75c43b13c75
+            uid: f47d6630-590d-4927-a440-56ab2aa2e27e
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: fd6bf52e-cb1c-4b9f-a56f-7ccef379f5c3
+        uid: 871dcd9d-299d-4435-aaee-d0e75a7ba8c3
         userCondition: null
-handle: homepage
-hasTitleField: false
-name: Homepage
-section: 4ea6fe13-0b4e-4470-85a5-50eb74d53b8a # Homepage
+handle: header
+hasTitleField: true
+name: Header
+section: cf36feaf-94b4-4eef-8eea-521ff95db69c # Header
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

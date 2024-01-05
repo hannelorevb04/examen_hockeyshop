@@ -1,12 +1,15 @@
 defaultPlacement: end
 enableVersioning: true
-handle: footer
-name: Footer
+handle: filter
+name: Filter
 propagationMethod: all
 siteSettings:
   40137e29-ca1d-4628-83ea-a42182c8d1f6: # hockeyshop
     enabledByDefault: true
     hasUrls: true
-    template: footer/_entry
-    uriFormat: footer
-type: single
+    template: filter/_entry
+    uriFormat: 'filter/{slug}'
+structure:
+  maxLevels: null
+  uid: 40de0f27-ddb4-47c6-b8ef-5a106cb417de
+type: structure

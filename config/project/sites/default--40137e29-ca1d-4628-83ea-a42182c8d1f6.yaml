@@ -3,7 +3,7 @@ enabled: true
 handle: default
 hasUrls: true
 language: en-US
-name: 'https://hockeyshop.ddev.site'
+name: hockeyshop
 primary: true
-siteGroup: b894f1f5-f2b9-440c-9986-42340307d840 # https://hockeyshop.ddev.site
+siteGroup: b894f1f5-f2b9-440c-9986-42340307d840 # hockeyshop
 sortOrder: 1

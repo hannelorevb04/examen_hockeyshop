@@ -1,5 +1,5 @@
 fieldLayouts:
-  55140a6d-61c0-44c3-baab-d084c7014bb7:
+  671a184d-c14d-4927-b528-03c7e5746e6b:
     tabs:
       -
         elementCondition: null
@@ -27,33 +27,21 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 959e6d68-a755-4001-afed-517b90bd7b56
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5 # Tekst
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: ba824b92-c16a-4dbe-a863-3b1f21afb074
+            uid: 819614e7-e6ad-496d-bba6-c89b5214c816
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: c98ebe14-e4cc-4c21-8178-92738bccbcd6
+        uid: 75ea2b99-0054-45af-bbea-990cd68d2af0
         userCondition: null
-handle: footer
-hasTitleField: false
-name: Footer
-section: 071096ab-4b3b-49af-ac59-a3e8dc61a5ef # Footer
+handle: default
+hasTitleField: true
+name: Default
+section: 1bb5cbeb-d0f9-4630-852c-c5bd6e075d92 # Filter
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 sortOrder: 1
-titleFormat: '{section.name|raw}'
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

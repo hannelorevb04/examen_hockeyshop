@@ -4,8 +4,48 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b98ba8bac67b4aab995a1f32f78be62",
+    "content-hash": "e641adc69ebd8127192700427f043a02",
     "packages": [
+        {
+            "name": "abmat/craft-tinymce",
+            "version": "1.0.5",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/abm-werbeagentur/craft-tinymce/zipball/a2a87efb84fe81b38916b61aa0ab50823e4480d4",
+                "reference": "a2a87efb84fe81b38916b61aa0ab50823e4480d4",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0.0",
+                "craftcms/html-field": "^2.0.0",
+                "tinymce/tinymce": "^6.0.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "TinyMCE editor field",
+                "handle": "abm-tinymce"
+            },
+            "autoload": {
+                "psr-4": {
+                    "abmat\\tinymce\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ABM Feregyhazy & Simon GmbH",
+                    "homepage": "https://www.abm.at"
+                }
+            ],
+            "description": "TinyMCE Field for Craft CMS",
+            "support": {
+                "issues": "https://github.com/abm-werbeagentur/craft-tinymce/issues",
+                "source": "https://github.com/abm-werbeagentur/craft-tinymce"
+            },
+            "time": "2023-09-27T11:15:26+00:00"
+        },
         {
             "name": "cebe/markdown",
             "version": "1.2.1",
@@ -2008,11 +2048,11 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.24.5",
+            "version": "1.25.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/fedf211ff14ec8381c9bf5714e33a7a552dd1acc",
-                "reference": "fedf211ff14ec8381c9bf5714e33a7a552dd1acc",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/bd84b629c8de41aa2ae82c067c955e06f1b00240",
+                "reference": "bd84b629c8de41aa2ae82c067c955e06f1b00240",
                 "shasum": ""
             },
             "require": {
@@ -2030,7 +2070,7 @@
                 "MIT"
             ],
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
-            "time": "2023-12-16T09:33:33+00:00"
+            "time": "2024-01-04T17:06:16+00:00"
         },
         {
             "name": "pixelandtonic/imagine",
@@ -4035,6 +4075,56 @@
             ],
             "description": "PHP library for parsing a string containing a full name into its parts",
             "time": "2019-11-14T14:08:48+00:00"
+        },
+        {
+            "name": "tinymce/tinymce",
+            "version": "6.8.2",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tinymce/tinymce-dist/zipball/b0073db409746748af4fc06fbee337bb99f462d9",
+                "reference": "b0073db409746748af4fc06fbee337bb99f462d9",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "scripts": [
+                        "tinymce.js",
+                        "plugins/*/plugin.js",
+                        "themes/*/theme.js",
+                        "models/*/model.js",
+                        "icons/*/icons.js"
+                    ],
+                    "files": [
+                        "tinymce.min.js",
+                        "plugins/*/plugin.min.js",
+                        "themes/*/theme.min.js",
+                        "models/*/model.min.js",
+                        "skins/**",
+                        "icons/*/icons.min.js"
+                    ]
+                }
+            },
+            "license": [
+                "MIT-only"
+            ],
+            "description": "Web based JavaScript HTML WYSIWYG editor control.",
+            "homepage": "https://www.tiny.cloud/",
+            "keywords": [
+                "contenteditable",
+                "editing",
+                "html",
+                "javascript",
+                "rich editor",
+                "rich text",
+                "rich text editor",
+                "richtext",
+                "rte",
+                "text",
+                "tinymce",
+                "wysiwyg"
+            ],
+            "time": "2023-12-11T03:21:56+00:00"
         },
         {
             "name": "twig/twig",
