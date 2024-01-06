@@ -9,12 +9,7 @@
 
 </head>
 <body>
-    <header>
-       {% set header = craft.entries().section('header').one()%} {# craft.entries --> haalt alle entries op, section('header') --> specifiert welke entrie we willen ophalen, .one() --> geeft aan dat we maar 1 item willen ophalen #}
-       {# {{header.title}} #}
-       {# <img src="{{entry.productFoto.one().url('productFoto')}}" alt="">  #}
-      {# {{header.logo}} #}
-      
+    <header>    
       <nav>
         <input type="checkbox" name="menu-toggle" id="menu-toggle"/>
         <span></span>

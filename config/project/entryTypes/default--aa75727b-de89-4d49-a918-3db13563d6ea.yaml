@@ -33,18 +33,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: d4a95bfa-bee2-4bf1-a9bf-6f7f990cfd39 # Merk
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 04646560-3fe0-4230-a74c-f8a8f865c43b
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: 832b2fab-c391-4636-8861-e55be1be4347 # Product foto
             instructions: null
             label: null
@@ -64,18 +52,6 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: 85c3628e-db20-4f79-9098-3253830c38b7
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5 # Tekst
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 8d66a7a9-d580-49a2-a60c-3c6eb25efad2
             userCondition: null
             warning: null
             width: 100
