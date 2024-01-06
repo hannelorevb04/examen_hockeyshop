@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{siteName}}</title>
-    {% do craft.app.view.registerCssFile('@web/styles/normalize.css') %}
-    {% do craft.app.view.registerCssFile('@web/styles/style.css') %}
+    {% do craft.app.view.registerCssFile('/styles/normalize.css') %}
+    {% do craft.app.view.registerCssFile('/styles/style.css') %}
 
 </head>
 <body>
@@ -20,12 +20,11 @@
         <span></span>
         <span></span>
         <span></span>
-        <div class="logo">
-           <a href="{{siteUrl}}"><img src="/images/uploads/logo.png" alt="logo"></a>
-          {# <source media="(min-width:960px)" srcset="{{header.logo.one().url('logo')}}"> #}
-        </div>
       
         <ul id="nav-menu">
+        <div class="logo">
+           <a href="{{siteUrl}}"><img id="logo" src="/images/uploads/logo_field_hockey.png" alt="logo"></a>
+        </div>
           <li><a href="{{siteUrl}}">Home</a></li>
           <li><a href="{{siteUrl}}sticks">Sticks</a></li>
           <li><a href="{{siteUrl}}kleding">Kleding</a></li>
