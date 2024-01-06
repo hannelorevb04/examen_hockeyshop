@@ -1,10 +1,26 @@
 {% extends "_layout" %}
 
-{% block main %}
+{% block content %}
+<section class="accessoires-section all-accessoires">
+    {% set entries = craft.entries().section('accessoires').all() %}
 
+    {% for entry in entries %} {# lussen door array van items #}
+    
+    <article>
+        <img src="{{entry.productFoto.one().url('productFoto')}}" alt="">
+        <div>
+            <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
+            <p>{{entry.tekst}}.</p>
+            <a href="{{entry.url}}">Meer informatie</a>
+        </div>
+    </article>  
+    {% endfor %}
+</section>
+{% endblock  %}
+{# 
     <div class="accessoires">
         <div class="item">
-                    <img src="/catalogus/images/kleding/hoofdbandje.webp" alt="">
+                    <img src="{{entry.productFoto.one().url('productFoto')}}" alt="">
                     <h3>BRABO ELASTIC HAIRBAND NON-SLIP 10MM</h3>
                     <div class="prijs">
                         <p class="oude_prijs">€4,99</p>
@@ -36,4 +52,4 @@
                 </div>
             </div>
         </div>
-{% endblock %}
+{% endblock %} #}

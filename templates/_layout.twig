@@ -14,18 +14,25 @@
        {# {{header.title}} #}
        {# <img src="{{entry.productFoto.one().url('productFoto')}}" alt="">  #}
       {# {{header.logo}} #}
+      
       <nav>
         <input type="checkbox" name="menu-toggle" id="menu-toggle"/>
         <span></span>
         <span></span>
         <span></span>
+        <div class="logo">
+           <a href="{{siteUrl}}"><img src="/@web/images/uploads/logo.png" alt="logo"></a>
+          {# <source media="(min-width:960px)" srcset="{{header.logo.one().url('logo')}}"> #}
+      
+
+        </div>
+      
         <ul id="nav-menu">
           <li><a href="{{siteUrl}}">Home</a></li>
           <li><a href="{{siteUrl}}sticks">Sticks</a></li>
           <li><a href="{{siteUrl}}kleding">Kleding</a></li>
           <li><a href="{{siteUrl}}accessoires">Accessoires</a></li>
         </ul>
-        
       </nav>
     </header>
 
@@ -33,8 +40,8 @@
     {# hier komt de content #}
     {# {% endblock %} #}
    
-    <footer>
-     
+     <footer>
+        <p>&copy; 2024 Hannelore Van Buynderen</p>
     </footer>
 
 </body>
