@@ -1,4 +1,4 @@
-dateModified: 1704581456
+dateModified: 1704582891
 email:
   fromEmail: r0949506@student.thomasmore.be
   fromName: 'https://hockeyshop.ddev.site'
@@ -19,11 +19,11 @@ meta:
     5eed2c37-be0e-4ced-b0dd-357a57ffcbe8: Default # Default
     6cff0bc7-a964-4259-8b47-44fe3e761f24: Default # Default
     6f79622a-c0f6-4178-91ab-4ec7b4c2ede2: 'Filter Home' # Filter Home
-    7c856655-74bf-4beb-8886-1dbf0fdedc3e: Logo # Logo
     7e95557d-5ac7-4c7c-9765-daf798d35181: 'Filter Kleding' # Filter Kleding
     9a68af7d-ad2d-4d6e-a40d-752713d226d5: Products # Products
     12d1629d-275c-4155-9bc3-88c0a7ccfd4c: 'Filter Home' # Filter Home
     24db7935-f54c-49e0-987a-ff0f5ab9c93f: Common # Common
+    032bd860-f273-478e-8a26-47e6231bb381: Korting # Korting
     40d16053-baad-4413-976a-1ae141f309fa: 'Filter Accessoires' # Filter Accessoires
     49c5f518-28be-4b4e-90b9-a19fc79e8898: 'Filter Accessoires' # Filter Accessoires
     51db1062-f39d-471e-b98f-5300561ca1fb: Default # Default
