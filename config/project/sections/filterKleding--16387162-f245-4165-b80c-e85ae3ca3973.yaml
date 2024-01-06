@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: filterKleding
+name: 'Filter Kleding'
+propagationMethod: all
+siteSettings:
+  40137e29-ca1d-4628-83ea-a42182c8d1f6: # hockeyshop
+    enabledByDefault: true
+    hasUrls: true
+    template: filter-kleding/_entry
+    uriFormat: 'filter-kleding/{slug}'
+structure:
+  maxLevels: null
+  uid: 3326bc26-5cb7-4f6b-b68e-57c1e7c101a4
+type: structure

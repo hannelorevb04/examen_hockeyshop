@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: filterAccessoires
+name: 'Filter Accessoires'
+propagationMethod: all
+siteSettings:
+  40137e29-ca1d-4628-83ea-a42182c8d1f6: # hockeyshop
+    enabledByDefault: true
+    hasUrls: true
+    template: filter-accessoires/_entry
+    uriFormat: 'filter-accessoires/{slug}'
+structure:
+  maxLevels: null
+  uid: a050cbcd-9f18-4677-9693-57a84f965519
+type: structure

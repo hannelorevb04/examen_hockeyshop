@@ -249,7 +249,7 @@ body {
   .items-section article {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
     background-color: #fff;
-    padding: 1em;
+    padding: 1.5em;
     margin-bottom: 1.5em;
     /* margin-top: 2em; */
     border-radius: 5px;
@@ -257,6 +257,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     color: #2b2b2b;
+    padding-bottom: 2em;
   }
   
   .items-section article img {
@@ -273,16 +274,17 @@ body {
   }
  
   .items-section article .categories span {
-    display: inline-block;
+    /* display: inline-block;
     text-transform: uppercase;
     font-size: 0.75rem;
     padding: 0.25rem;
     border-radius: 5px;
-    border: 1px solid #F6F4F4;
+    border: 1px solid #F6F4F4; */
+    display: none;
   }
   
   .article-details {
-    max-width: 800px;
+    max-width: 1000px;
     background-color: #fff;
     margin-left: auto;
     margin-right: auto;
@@ -302,7 +304,7 @@ body {
     margin-left: 2rem;
   }
   
-  .plugin-categories {
+  .filter-categories {
     padding: 1rem 0 0 0;
     display: flex;
     max-width: 1000px;
@@ -315,18 +317,18 @@ body {
   }
   
   
-  .plugin-categories input {
+  .filter-categories input {
     display: none;
   }
   
-  .plugin-categories label {
+  .filter-categories label {
     border: 1px solid #0c6ac9;
     border-radius: 20px;
     padding: 10px;
     margin-top: 0.5rem;
   }
   
-  .plugin-categories label:has(input:checked) {
+  .filter-categories label:has(input:checked) {
     color: #fff;
     background-color: #0c6ac9;
   }
@@ -336,6 +338,13 @@ body {
     color: #fff;
     padding: 1em;
     text-align: center;
+  }
+
+  .info{
+    background-color: #84a268;
+    border-radius: 25px;
+    padding: 10px;
+    color: #fff;
   }
   
   @media only screen and (max-width: 959px) {
@@ -490,7 +499,7 @@ body {
     }
 
     .items-section article div {
-      padding-left: 1em;
+      padding-left: 3em;
     }
 
     .items-section article h2 {

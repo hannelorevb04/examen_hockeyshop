@@ -1,15 +1,15 @@
 defaultPlacement: end
 enableVersioning: true
-handle: filter
-name: Filter
+handle: filterHome
+name: 'Filter Home'
 propagationMethod: all
 siteSettings:
   40137e29-ca1d-4628-83ea-a42182c8d1f6: # hockeyshop
     enabledByDefault: true
     hasUrls: true
-    template: filter/_entry
-    uriFormat: 'filter/{slug}'
+    template: filter-home/_entry
+    uriFormat: 'filter-home/{slug}'
 structure:
   maxLevels: null
-  uid: 40de0f27-ddb4-47c6-b8ef-5a106cb417de
+  uid: fd8ad527-13cb-4b56-a946-53cd022ff584
 type: structure

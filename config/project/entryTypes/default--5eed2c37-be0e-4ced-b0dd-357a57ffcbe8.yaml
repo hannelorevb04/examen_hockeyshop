@@ -45,18 +45,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 75e6bd35-f48c-49e8-81fc-322ca8be891c # Titel maat
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 4a0e6671-ac40-499c-bbda-5ca6a5ba569f
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: 832b2fab-c391-4636-8861-e55be1be4347 # Product foto
             instructions: null
             label: null
@@ -81,18 +69,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 318f1136-09a4-4cd2-a364-76d1cd1985dc # Kleur
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 38a2e90f-3782-4651-a599-b0add8f07aac
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: 61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5 # Tekst
             instructions: null
             label: null
@@ -100,6 +76,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: b71dadc7-fc73-46fe-93a9-7460014f3235
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7e95557d-5ac7-4c7c-9765-daf798d35181 # Filter Kleding
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d52580c9-e63b-4e8d-a79e-13225c42b617
             userCondition: null
             warning: null
             width: 100

@@ -1,4 +1,4 @@
-dateModified: 1704546684
+dateModified: 1704580542
 email:
   fromEmail: r0949506@student.thomasmore.be
   fromName: 'https://hockeyshop.ddev.site'
@@ -13,29 +13,36 @@ fs:
     url: '@web/images/uploads/products'
 meta:
   __names__:
-    1bb5cbeb-d0f9-4630-852c-c5bd6e075d92: Filter # Filter
+    1bb5cbeb-d0f9-4630-852c-c5bd6e075d92: 'Filter Sticks' # Filter Sticks
     03ed6242-e5cb-4e16-9d54-b533e178c44c: Prijs # Prijs
+    5e79ed18-692d-4bd4-a1f6-0f73d59fadae: Default # Default
     5eed2c37-be0e-4ced-b0dd-357a57ffcbe8: Default # Default
     6cff0bc7-a964-4259-8b47-44fe3e761f24: Default # Default
+    6f79622a-c0f6-4178-91ab-4ec7b4c2ede2: 'Filter Home' # Filter Home
     7c856655-74bf-4beb-8886-1dbf0fdedc3e: Logo # Logo
+    7e95557d-5ac7-4c7c-9765-daf798d35181: 'Filter Kleding' # Filter Kleding
     9a68af7d-ad2d-4d6e-a40d-752713d226d5: Products # Products
+    12d1629d-275c-4155-9bc3-88c0a7ccfd4c: 'Filter Home' # Filter Home
     24db7935-f54c-49e0-987a-ff0f5ab9c93f: Common # Common
+    40d16053-baad-4413-976a-1ae141f309fa: 'Filter Accessoires' # Filter Accessoires
+    49c5f518-28be-4b4e-90b9-a19fc79e8898: 'Filter Accessoires' # Filter Accessoires
+    51db1062-f39d-471e-b98f-5300561ca1fb: Default # Default
     61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5: Tekst # Tekst
     75e6bd35-f48c-49e8-81fc-322ca8be891c: 'Titel maat' # Titel maat
-    90e2a316-b263-446c-b52e-7fe30d32f5b5: Footer # Footer
     318f1136-09a4-4cd2-a364-76d1cd1985dc: Kleur # Kleur
+    757d0ec3-160d-426f-b1cf-86778deb5cd3: Default # Default
     832b2fab-c391-4636-8861-e55be1be4347: 'Product foto' # Product foto
     874bbcd8-3397-4307-8ebc-022cd9b1c03e: Default # Default
     5519d04b-ef0d-4080-a816-e181742e567a: Sticks # Sticks
-    18743e3b-b232-445c-afa4-17be0c51830c: Filter # Filter
+    8570aafe-1bd5-4d40-8a7e-91439bd6df3c: Default # Default
+    18743e3b-b232-445c-afa4-17be0c51830c: 'Filter Sticks' # Filter Sticks
     40137e29-ca1d-4628-83ea-a42182c8d1f6: hockeyshop # hockeyshop
-    071096ab-4b3b-49af-ac59-a3e8dc61a5ef: Footer # Footer
+    16387162-f245-4165-b80c-e85ae3ca3973: 'Filter Kleding' # Filter Kleding
     aa75727b-de89-4d49-a918-3db13563d6ea: Default # Default
     b894f1f5-f2b9-440c-9986-42340307d840: hockeyshop # hockeyshop
     b2453c63-010c-48fe-84f5-2dd5f5249760: Kleding # Kleding
-    cf36feaf-94b4-4eef-8eea-521ff95db69c: Header # Header
+    c5080511-9498-4759-8595-ec95dd5acff0: Home # Home
     d4a95bfa-bee2-4bf1-a9bf-6f7f990cfd39: Merk # Merk
-    d51e556e-1ecc-46a6-8555-bbe6d52015f6: Header # Header
     e24a704a-33b2-436e-9bdc-9e59f8f90f56: Accessoires # Accessoires
     eb257bf1-a669-4911-a35c-99197480e866: 180x180 # 180x180
 plugins:

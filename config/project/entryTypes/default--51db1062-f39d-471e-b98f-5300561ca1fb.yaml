@@ -1,5 +1,5 @@
 fieldLayouts:
-  671a184d-c14d-4927-b528-03c7e5746e6b:
+  c137ac25-ca01-44e0-8d59-a39f07b21430:
     tabs:
       -
         elementCondition: null
@@ -27,17 +27,17 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 819614e7-e6ad-496d-bba6-c89b5214c816
+            uid: f030a765-3519-473c-91ef-cdf0620fb088
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 75ea2b99-0054-45af-bbea-990cd68d2af0
+        uid: 403ed08f-34d3-4fc3-b91d-be748660d002
         userCondition: null
 handle: default
 hasTitleField: true
 name: Default
-section: 1bb5cbeb-d0f9-4630-852c-c5bd6e075d92 # Filter Sticks
+section: 6f79622a-c0f6-4178-91ab-4ec7b4c2ede2 # Filter Home
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site

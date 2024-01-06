@@ -1,9 +1,9 @@
 columnSuffix: null
 contentColumnType: string
 fieldGroup: 24db7935-f54c-49e0-987a-ff0f5ab9c93f # Common
-handle: filter
+handle: filterSticks
 instructions: null
-name: Filter
+name: 'Filter Sticks'
 searchable: false
 settings:
   allowSelfRelations: false
@@ -26,7 +26,7 @@ settings:
   selectionLabel: null
   showSiteMenu: true
   sources:
-    - 'section:1bb5cbeb-d0f9-4630-852c-c5bd6e075d92' # Filter
+    - 'section:1bb5cbeb-d0f9-4630-852c-c5bd6e075d92' # Filter Sticks
   targetSiteId: null
   validateRelatedElements: false
   viewMode: null

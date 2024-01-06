@@ -1,5 +1,5 @@
 fieldLayouts:
-  2602fc8b-b7b7-4bec-a3ef-0246b8d1acc9:
+  4da23c0b-c9ea-4a41-be34-e41b0f80efd9:
     tabs:
       -
         elementCondition: null
@@ -27,45 +27,57 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: 243bc075-b808-4312-b866-036183ab8803
+            uid: 3febd502-080e-49f5-8b27-8ae6ff99ff7d
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 7c856655-74bf-4beb-8886-1dbf0fdedc3e # Logo
+            fieldUid: 832b2fab-c391-4636-8861-e55be1be4347 # Product foto
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 315dc936-a3b5-4630-83e0-4fd34907e4e1
+            uid: 85efcd2f-593a-4a3c-a0c9-7e37570c910a
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5 # Tekst
+            fieldUid: 03ed6242-e5cb-4e16-9d54-b533e178c44c # Prijs
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: f47d6630-590d-4927-a440-56ab2aa2e27e
+            uid: 1d70f6cc-6e1e-4771-bee7-75e50c3b9766
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 12d1629d-275c-4155-9bc3-88c0a7ccfd4c # Filter Home
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a5733bd6-2e8a-40e7-9027-1347aa51a08d
             userCondition: null
             warning: null
             width: 100
         name: Content
-        uid: 871dcd9d-299d-4435-aaee-d0e75a7ba8c3
+        uid: f1d5d28d-4686-43b8-a39a-e7e428e43223
         userCondition: null
-handle: header
+handle: default
 hasTitleField: true
-name: Header
-section: cf36feaf-94b4-4eef-8eea-521ff95db69c # Header
+name: Default
+section: c5080511-9498-4759-8595-ec95dd5acff0 # Home
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 sortOrder: 1
-titleFormat: '{section.name|raw}'
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

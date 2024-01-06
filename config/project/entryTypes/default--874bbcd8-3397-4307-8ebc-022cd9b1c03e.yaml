@@ -69,30 +69,6 @@ fieldLayouts:
             width: 100
           -
             elementCondition: null
-            fieldUid: 75e6bd35-f48c-49e8-81fc-322ca8be891c # Titel maat
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 42d032d7-606f-4e28-8bf5-865a2f1e5aa3
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 318f1136-09a4-4cd2-a364-76d1cd1985dc # Kleur
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 620adb68-2183-467f-aa82-838d79282c93
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
             fieldUid: 61f2f0d7-5ca8-4faa-a740-35c35fc6fdd5 # Tekst
             instructions: null
             label: null
@@ -100,6 +76,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: b2dab209-8285-4b25-a1ce-36cfe9d73f01
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 18743e3b-b232-445c-afa4-17be0c51830c # Filter Sticks
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9108d78b-0270-4fc1-b585-0f7ae547891c
             userCondition: null
             warning: null
             width: 100

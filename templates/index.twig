@@ -1,131 +1,74 @@
 {% extends "_layout" %}
-{# {% do craft.app.view.registerCssFile('/@web/styles/style.css?1234') %} #}
 
 {% block content %}
+    {% set categories = craft.entries().section('filterHome').all() %}
+    <div class="filter-categories">
+      {% for cat in categories %}
+        <label><input type="checkbox" name="{{cat}}"/>{{cat}}</label>
+      {% endfor %}
+    </div>
+    
+    <section class="items-section all-items">
+    {% set entries = craft.entries().section('home').all() %}
 
-
-<section class="items-section">
-
-{# {% set entries = craft.entries().section('sticks').limit(3) %}
-
-{% for entry in entries %} #}
-
-{% set entries = craft.entries().section('sticks').all() %}
-{% for entry in entries %}
-
-    <article>
+    {% for entry in entries %}
+      <article
+        {% for category in entry.filterHome %}
+          data-{{category}}
+        {% endfor %}
+      >
         <picture>
-            {# <source media="(max-width:959px)" srcset="{{entry.productFoto.one().url('productFoto')}}"> #}
-            {# <source media="(min-width:960px)" srcset="{{entry.productFoto.one().url('productFoto')}}"> #}
-            <img src="{{entry.productFoto.one().url()}}" alt="">
+        <img src="{{entry.productFoto.one().url()}}" alt=""> 
         </picture>
-            <div>
-              <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
-              {# <p>{{entry.tekst}}</p> #}
-              <a href= "#">Meer informatie</a>
-            </div>
-        </article>
-
-    {% endfor %}  
-        {# <a class="button btn-more" href="/news">More News</a> #}
-    </section>
-
-
-
-       {% endblock %}
-
-
-
-    {# <header>
-        <div id="background_image">
-            <h1>De grootste hockeywinkel van de Benelux!</h1>
+        <div>
+            <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
+            <a class="info" href= "#">Meer informatie</a>
         </div>
-        <!-- <video id="hockey_video" src="/catalogus/images/hockey.mp4" autoplay muted loop type="video/mp4"></video> -->
-        <!-- <img id="background_image" src="/catalogus/images/background_image.jpg" alt=""> -->
-        
-        <p></p>
-    </header> 
-    <body> #}
-{# 
-<div class="sticks">
-    <div class="item">
-        <img src="/catalogus/images/stick_1/stick1_1.webp" alt="">
-        <h3>{{ entry.naam }}</h3> 
-        <div class="prijs">
-            <p class="oude_prijs">€440,00</p>
-            <p>€352,00</p>
-        </div>
-        <a href="#">Toevoegen aan winkelwagen</a>
-    </div>
 
-    <div class="item">
-        <img src="/catalogus/images/stick_2/stick2_1.webp" alt="">
-        <h3>{{ entry.naam }}</h3> 
-        <div class="prijs">
-            <p class="oude_prijs">€399,95</p>
-            <p>€319,96</p>
+        <div class="categories">
+            {% for category in entry.filterHome %}
+                <span>{{category}}</span>
+            {% endfor %}
+          </div>
+          {# <p>rating: <strong>{{entry.rating}} / 5</strong></p> #}
         </div>
-        <a href="#">Toevoegen aan winkelwagen</a>
-    </div>
+      </article>
+    {% endfor %}
+  </section>
+  <script>
+    let selectedCategories = [];
 
-    <div class="item">
-        <img src="/catalogus/images/stick_3/stick3_1.webp" alt="">
-        <h3>{{ entry.naam }}</h3> 
-        <div class="prijs">
-            <p class="oude_prijs">€385,00</p>
-            <p>€308,00</p>
-        </div>
-        <a href="#">Toevoegen aan winkelwagen</a>
-    </div>
+    document.querySelectorAll(".filter-categories input").forEach((element) => {
+      element.addEventListener("change", onSelectCategory);
+    });
 
-    <div class="item">
-        <img src="/catalogus/images/stick_5/stick5_1.webp" alt="">   
-        <h3>{{ entry.naam }}</h3> 
-        <div class="prijs">
-            <p class="oude_prijs">€380,00</p>
-            <p>€304,00</p>
-        </div>
-        <a href="#">Toevoegen aan winkelwagen</a>
-    </div>
 
-    <div class="item">
-        <img src="/catalogus/images/stick_6/stick6_1.webp" alt="">   
-        <h3>{{ entry.naam }}</h3> 
-        <div class="prijs">
-            <p class="oude_prijs">€380,00</p>
-            <p>€304,00</p>
-        </div>
-        <a href="#">Toevoegen aan winkelwagen</a>
-    </div>
+    function onSelectCategory(e) {
+      if (selectedCategories.includes(this.name)) {
+        let index = selectedCategories.indexOf(this.name);
+        selectedCategories.splice(index, 1);
+      }
+      else {
+        selectedCategories.push(this.name);
+      }
+      updateGrid();
+    }
 
-    <div class="item">
-        <img src="/catalogus/images/stick_7/stick7_1.webp" alt="">   
-        <h3>{{ entry.naam }}</h3>
-        <div class="prijs">
-            <p class="oude_prijs">€299,95</p>
-            <p>€239,96</p>
-        </div>
-        <a href="#">Toevoegen aan winkelwagen</a>
-    </div>
+    function updateGrid() {
+      document.querySelectorAll(".items-section article").forEach((el) => {
+        el.style.display = "none";
+        console.log(selectedCategories);
+        for (let i = 0; i < selectedCategories.length; i++) {
+          // console.log(el.hasAttribute("data-" + selectedCategories[i]));
+          if (el.hasAttribute("data-" + selectedCategories[i])) {
+            el.style.display = "block";
+          }
+        }
+        if (selectedCategories.length == 0) {
+          el.style.display = "block";
+        }
+      });
+    }
+  </script>
+{% endblock %}
 
-    <div class="item">
-        <img src="/catalogus/images/stick_8/stick8_1.webp" alt="">   
-        <h3>{{ entry.naam }}</h3> 
-        <div class="prijs">
-            <p class="oude_prijs">€60,00</p>
-            <p>€48,00</p>
-        </div>
-        <a href="#">Toevoegen aan winkelwagen</a>
-    </div>
-
-    <div class="item">
-        <img src="/catalogus/images/stick_9/stick9_1.webp" alt="">   
-        <h3>{{ entry.naam }}</h3> 
-        <div class="prijs">
-            <p class="oude_prijs">€35,00</p>
-            <p>€28,00</p>
-        </div>
-        <a href="#">Toevoegen aan winkelwagen</a>
-    </div>
-</div>
-{% endblock %} #}
