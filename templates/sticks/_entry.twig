@@ -1,9 +1,9 @@
 {% extends "_layout" %}
 
 {% block content %}
-    <section class="article-details">
-        <img src="{{entry.bannerImage.one().url('headerImage')}}" alt="">
+    <section class="sticks-details">
+        <img src="{{entry.productFoto.one().url('productFoto')}}" alt="">
         <h2>{{entry.title}}</h2>
-        <p>{{entry.fullText}}</p>
+        <p>{{entry.tekst}}</p>
     </section>
 {% endblock %}

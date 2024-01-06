@@ -6,19 +6,22 @@
 
 <section class="sticks">
 
-{% set entries = craft.entries().section('sticks').limit(3) %}
+{# {% set entries = craft.entries().section('sticks').limit(3) %}
 
+{% for entry in entries %} #}
+
+{% set entries = craft.entries().section('sticks').all() %}
 {% for entry in entries %}
 
     <article>
         <picture>
-            <source media="(max-width:959px)" srcset="{{entry.productFoto.one().url('productFoto')}}">
-            <source media="(min-width:960px)" srcset="{{entry.productFoto.one().url('productFoto')}}">
-            <img src="{{entry.productFoto.one().url('productFoto')}}" alt="">
+            {# <source media="(max-width:959px)" srcset="{{entry.productFoto.one().url('productFoto')}}"> #}
+            {# <source media="(min-width:960px)" srcset="{{entry.productFoto.one().url('productFoto')}}"> #}
+            <img src="{{entry.productFoto.one().url()}}" alt="">
         </picture>
             <div>
               <h2><a href="{{entry.url}}">{{entry.title}}</a></h2>
-              <p>{{entry.tekst}}</p>
+              {# <p>{{entry.tekst}}</p> #}
               <a href= "#">read more</a>
             </div>
         </article>

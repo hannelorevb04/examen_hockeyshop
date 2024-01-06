@@ -1,0 +1,19 @@
+{% extends "_layout" %}
+
+{% block content %}
+<section class="sticks-section all-sticks">
+{% set sticks = craft.sticks().section('sticks').all() %}
+{% for stick in sticks %}
+
+<article>
+            {# <img src="{{stick.productFoto.one().url('productFoto')}}" alt=""> #}
+            <div>
+              <h2><a href="{{stick.url}}">{{stick.title}}</a></h2>
+              <p>{{stick.tekst}}.</p>
+              <a href="{{stick.url}}">read more</a>
+            </div>
+        </article> 
+ 
+{% endfor %}
+ </section>
+{% endblock %}
